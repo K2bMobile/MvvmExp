@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         tableView.frame = view.bounds
     }
     private func ConfiguredModel(){
-        let names = ["Joe","John","Jock"]
+        let names = ["Joe","John","Jock","Welcome"]
         for name in names{
             models.append(Person(name: name))
         }
